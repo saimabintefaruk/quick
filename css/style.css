@@ -1,0 +1,36 @@
+header{
+	background-color: azure;
+}
+.container{
+	width: 1200px;
+	height: 50px;
+	padding: 20px 40px;
+}
+.logo{
+	width:20%;
+	/*height:120px;*/
+	float:left;
+	display: flex;
+	flex-wrap: wrap;
+	}
+.logo a{}
+.manu{
+	width:80%;
+	float:left;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.manu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.manu ul li{
+    list-style: none;
+}
+.manu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
